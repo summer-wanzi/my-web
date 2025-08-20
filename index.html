@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设计师作品集 - 创意与美学的完美结合</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>设计师</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">作品集</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">服务</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系我</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">创造</span>
+                    <span class="title-line">美好设计</span>
+                </h1>
+                <p class="hero-description">
+                    我是一名热爱创新的视觉设计师，专注于品牌设计、UI/UX设计和创意视觉传达。让我们一起创造令人难忘的设计体验。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">查看作品</a>
+                    <a href="#contact" class="btn btn-secondary">联系合作</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-palette"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">设计是解决问题的艺术</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>你好，我是 Alex Chen</h3>
+                    <p>拥有5年设计经验，专精于用户体验设计和品牌视觉设计。我相信优秀的设计应该既美观又实用，能够真正解决用户的问题并创造价值。</p>
+                    <p>我的设计理念是：简约而不简单，注重细节与用户体验，用设计连接品牌与用户的情感纽带。</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <span>UI/UX设计</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>品牌设计</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>移动端设计</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>前端开发</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">精选作品</h2>
+                <p class="section-subtitle">每个项目都是独特的故事</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="web">网页设计</button>
+                <button class="filter-btn" data-filter="mobile">移动应用</button>
+                <button class="filter-btn" data-filter="brand">品牌设计</button>
+                <button class="filter-btn" data-filter="ui">UI设计</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="image/电商网站.png" alt="电商网站设计" />
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>电商网站设计</h4>
+                        <p class="portfolio-description">现代化的电商平台界面设计，专注于提升用户购物体验和转化率优化。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">网页设计</span>
+                            <span class="portfolio-tag">用户体验</span>
+                            <span class="portfolio-tag">响应式</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="image/健身应用.png" alt="健身应用UI" />
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>健身应用UI</h4>
+                        <p class="portfolio-description">简洁直观的健身追踪应用，帮助用户记录锻炼数据，激发运动热情。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">移动端</span>
+                            <span class="portfolio-tag">健康</span>
+                            <span class="portfolio-tag">iOS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="brand">
+                    <div class="portfolio-image">
+                        <img src="image/咖啡品牌.jpg" alt="咖啡品牌设计" />
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>咖啡品牌设计</h4>
+                        <p class="portfolio-description">温暖自然的咖啡品牌视觉系统，传递慢生活理念和生活美学态度。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">品牌</span>
+                            <span class="portfolio-tag">包装</span>
+                            <span class="portfolio-tag">VI设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="image/数据仪表盘.png" alt="数据仪表板" />
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>数据仪表板</h4>
+                        <p class="portfolio-description">专业的企业级数据可视化仪表板，清晰展示关键业务指标和趋势分析。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">数据可视化</span>
+                            <span class="portfolio-tag">企业应用</span>
+                            <span class="portfolio-tag">B2B</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="image/企业官网.png" alt="企业官网" />
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>企业官网</h4>
+                        <p class="portfolio-description">专业的企业形象官网设计，展现品牌实力，提升企业数字化形象。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">企业官网</span>
+                            <span class="portfolio-tag">品牌展示</span>
+                            <span class="portfolio-tag">专业</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="image/音乐播放器.png" alt="音乐播放器" />
+                        <div class="portfolio-overlay">
+                            <a href="#" class="view-project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>音乐播放器</h4>
+                        <p class="portfolio-description">优雅的音乐播放应用界面设计，为用户带来沉浸式的音乐聆听体验。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">音乐</span>
+                            <span class="portfolio-tag">娱乐</span>
+                            <span class="portfolio-tag">Android</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务 -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">设计服务</h2>
+                <p class="section-subtitle">为您提供全方位的设计解决方案</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UI/UX设计</h3>
+                    <p>创造直观、美观且易用的用户界面，提升用户体验和产品价值。</p>
+                    <ul>
+                        <li>用户研究与分析</li>
+                        <li>交互设计</li>
+                        <li>原型制作</li>
+                        <li>界面设计</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>品牌设计</h3>
+                    <p>打造独特的品牌形象，建立强有力的品牌认知和情感连接。</p>
+                    <ul>
+                        <li>品牌标识设计</li>
+                        <li>视觉系统设计</li>
+                        <li>品牌指南制定</li>
+                        <li>营销物料设计</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>前端开发</h3>
+                    <p>将设计转化为高质量的代码实现，确保设计意图的完美呈现。</p>
+                    <ul>
+                        <li>响应式网站开发</li>
+                        <li>交互动效实现</li>
+                        <li>性能优化</li>
+                        <li>跨浏览器兼容</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我</h2>
+                <p class="section-subtitle">让我们一起创造精彩的设计项目</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>取得联系</h3>
+                    <p>无论您是需要设计服务，还是想要讨论创意想法，我都很乐意听到您的声音。</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@designer.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+86 138 0013 8000</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>中国 上海</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="主题" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="您的消息" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 设计师作品集. 保留所有权利.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#about">关于</a>
+                    <a href="#portfolio">作品</a>
+                    <a href="#contact">联系</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
